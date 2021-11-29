@@ -1,2 +1,1 @@
-# ZaWebsite-Guacamole
-# DITISCOOL!!!!!!!!!
+# ZaWebsite-Guacamole is de beste webs
