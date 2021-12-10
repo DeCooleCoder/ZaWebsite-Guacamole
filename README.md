@@ -1,1 +1,1 @@
-# ZaWebsite-Guacamole is de beste webs
+# ZaWebsite-Guacamole is de beste website
