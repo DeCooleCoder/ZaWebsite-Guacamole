@@ -17,11 +17,11 @@ body, html{
 }
 
 .bg {
-  background-image: url("https://vistapointe.net/images/cool-blue-5.jpg");
+  background-image: url("https://vistapointe.net/images/cool-blue-5.jpg");;
   height: 100%;
   width: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 
@@ -114,11 +114,11 @@ section .content{
   display: none;
   background: #fff;
 }
-#home:checked ~ section .content-1,
-#blog:checked ~ section .content-2,
-#code:checked ~ section .content-3,
-#help:checked ~ section .content-4,
-#about:checked ~ section .content-5{
+#home:checked ~ section .Home,
+#blog:checked ~ section .AI,
+#code:checked ~ section .Machine,
+#help:checked ~ section .Contact,
+#about:checked ~ section .About{
   display: block;
 }
 section .content .title{
@@ -129,3 +129,27 @@ section .content .title{
 section .content p{
 text-align: justify;
 }
+
+table{
+    margin: 5px;
+    font-size: 130%;
+    height: 75%;
+    width: 75%;
+}
+
+tr {
+  margin:20px, 10px;
+}
+
+table{
+  border-radius: 25px;
+  background: #17a2b8;
+  padding: 20px;
+  width: fixed;
+  height: 150px;
+}
+
+table ul{
+  padding: 20px;
+}
+
