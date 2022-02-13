@@ -171,6 +171,24 @@ fieldset {
   background: #17a2b8;
 }
 
+.Home{
+    padding: 25px;
+  border-radius: 25px;
+  background: #17a2b8;
+}
+
+.AI{
+     padding: 25px;
+  border-radius: 25px;
+  background: #17a2b8;
+}
+
+.Contact{
+     padding: 25px;
+  border-radius: 25px;
+  background: #17a2b8;
+}
+
 .container {
   position: relative;
   overflow: hidden;
@@ -178,7 +196,7 @@ fieldset {
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
+/* Zorgt vvoor de width and hight van het filmpje */
 .responsive-iframe {
   position: absolute;
   top: 0;
