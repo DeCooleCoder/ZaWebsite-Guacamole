@@ -28,15 +28,11 @@
 body{
   overflow-y: scroll;
   padding: 0 20px;
-  background: #17a2b8;
-}
-
-body, html{
-  height: 100%;
+  background: #17c2c2;
 }
 
 .bg {
-  background-image: url("https://vistapointe.net/images/cool-blue-5.jpg");;
+  background-image: url("https://vistapointe.net/images/cool-blue-5.jpg");
   height: 100%;
   width: 100%;
   background-position: center;
@@ -79,7 +75,7 @@ body, html{
   cursor: pointer;
   position: relative;
   z-index: 1;
-  color: #17a2b8;
+  color: #17c2c2;
   font-size: 17px;
   border-radius: 5px;
   margin: 0 5px;
@@ -109,7 +105,7 @@ nav .slider{
   bottom: 0;
   z-index: 0;
   border-radius: 5px;
-  background: #17a2b8;
+  background: #17c2c2;
   transition: all 0.3s ease;
 }
 
@@ -161,7 +157,7 @@ tr {
 
 table{
   border-radius: 25px;
-  background: #17a2b8;
+  background: #17c2c2;
   padding: 20px;
   width: fixed;
   height: 150px;
@@ -181,37 +177,38 @@ fieldset {
   padding-right: 0.75em;
   border: none;
   border-radius: 25px;
-  background: #17a2b8;
+  background: #17c2c2;
+  color: white;
 }
 
 .Machine{
   padding: 25px;
   border-radius: 25px;
-  background: #17a2b8;
+  background: #17c2c2;
 }
 
 .Home{
     padding: 25px;
   border-radius: 25px;
-  background: #17a2b8;
+  background: #17c2c2;
 }
 
 .AI{
      padding: 25px;
   border-radius: 25px;
-  background: #17a2b8;
+  background: #17c2c2;
 }
 
 .Contact{
      padding: 25px;
   border-radius: 25px;
-  background: #17a2b8;
+  background: #17c2c2;
 }
 
 .About{
       padding: 25px;
   border-radius: 25px;
-  background: #17a2b8;
+  background: #17c2c2;
 }
 
 .container {
@@ -237,7 +234,7 @@ fieldset {
   width: 100%;
   border: none;
   border-radius: 25px;
-  background-color:  #000000;
+  background-color:  #13aeae;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -261,4 +258,17 @@ fieldset {
 
 .Bo td img{
   border-radius: 25px;
+}
+
+h1{
+  color: white;
+}
+
+input{
+  border-radius: 15px;
+  padding: 5px;
+}
+
+input#message{
+
 }
