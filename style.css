@@ -1,4 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.container{
+  margin: 20px;
+  border:1px solid black;
+  padding: 20px;
+}
+
+@media (min-width: 600px){
+  .container{
+    columns:2;
+  }
+}
+
+@media (max-width: 600px){
+  .container{
+    columns:2;
+  }
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -160,7 +179,7 @@ fieldset {
   padding-bottom: 0.625em;
   padding-left: 0.75em;
   padding-right: 0.75em;
-  border: 2px groove (internal value);
+  border: none;
   border-radius: 25px;
   background: #17a2b8;
 }
@@ -189,6 +208,12 @@ fieldset {
   background: #17a2b8;
 }
 
+.About{
+      padding: 25px;
+  border-radius: 25px;
+  background: #17a2b8;
+}
+
 .container {
   position: relative;
   overflow: hidden;
@@ -205,4 +230,35 @@ fieldset {
   right: 0;
   width: 100%;
   height: 100%;
+}
+
+.SubmitButton{
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  background-color:  #000000;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+  line-height: 50px;
+  position: relative;
+  z-index: 1;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.SubmitButton:hover{
+   background: rgba(185,227,234,0.3);
+}
+
+.Joshua td img{
+  border-radius: 25px;
+}
+
+.Bo td img{
+  border-radius: 25px;
 }
