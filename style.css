@@ -164,7 +164,7 @@ tr {
 }
 
 table{
-  border-radius: 25px;
+  border-radius: 0px 0px 25px 25px;
   background:#1788d4;
   padding: 20px;
   width: fixed;
@@ -173,6 +173,10 @@ table{
 }
 
 table ul{
+  padding: 20px;
+}
+
+table ol{
   padding: 20px;
 }
 
@@ -289,6 +293,14 @@ textarea{
   padding: 15px;
 }
 
+caption{
+  color: white;
+  background-color: #1788d4;
+  border-radius: 25px 25px 0px 0px;
+  font-size: 25px;
+  padding: 20px;
+}
+
 .footer{
   opacity: 1;
   color: #dae1ec;
@@ -298,6 +310,7 @@ textarea{
 }
 
 @media (max-width: 684px){
+  
  body{
    font-size: 12.5px;
    margin: 0;
@@ -351,5 +364,15 @@ textarea{
 #help:checked ~ nav label.help,
   #about:checked ~ nav label.about{
   color:#1788d4;
+}
+  input{
+  padding: 2px;
+  font-size: 12.5px;
+}
+}
+
+@media (max-width: 361px){
+  table{
+font-size: 10px;
 }
 }
