@@ -155,28 +155,29 @@ section{
 table{
     margin: 5px;
     font-size: 130%;
-    height: 75%;
-    width: 75%;
+   border-radius: 0px 0px 25px 25px;
+   background:#1788d4;
+   padding: 20px;
+   width: fixed;
+   height: 150px;
+   color: white;
 }
 
 tr {
   margin:20px, 10px;
 }
 
-table{
-  border-radius: 0px 0px 25px 25px;
-  background:#1788d4;
-  padding: 20px;
-  width: fixed;
-  height: 150px;
-  color: white;
+ul{
+  padding-left: 25px;
 }
-
-table ul{
-  padding: 20px;
+ol{
+  padding-left: 25px;
 }
 
 table ol{
+  padding: 20px;
+}
+table ul{
   padding: 20px;
 }
 
@@ -211,6 +212,8 @@ fieldset {
   border-radius: 25px 25px 0px 0px;
   background:#1788d4;
 }
+
+
 
 .Contact{
      padding: 25px;
@@ -301,7 +304,7 @@ caption{
   padding: 20px;
 }
 
-.footer{
+footer{
   opacity: 1;
   color: #dae1ec;
   background-color: white;
